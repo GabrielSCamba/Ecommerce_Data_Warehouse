@@ -1,0 +1,106 @@
+nome_produto;descricao_produto;id_categoria
+Smartphone X200;Smartphone com 128GB de armazenamento e câmera dupla.;1
+Fone de Ouvido Bluetooth Z;Fone de ouvido sem fio com cancelamento de ruído.;1
+Notebook Pro 15;Notebook com processador i7 e 16GB de RAM.;2
+Smartwatch S10;Relógio inteligente com monitoramento de saúde.;1
+Cafeteira Automática;Cafeteira elétrica com temporizador programável.;3
+Air Fryer 3.2L;Fritadeira elétrica sem óleo com capacidade de 3.2 litros.;4
+Geladeira Frost Free;Geladeira com freezer independente e economia de energia.;5
+Tênis Running Max;Tênis esportivo com amortecimento para corrida.;6
+Camiseta Básica Branca;Camiseta de algodão com corte regular.;7
+Mochila Executiva;Mochila resistente à água com compartimento para laptop.;8
+Livro Python para Todos;Guia completo para iniciantes em programação Python.;9
+Console GameStation 5;Videogame de última geração com gráficos avançados.;1
+Bicicleta Mountain Bike;Bicicleta de 21 marchas com suspensão dupla.;10
+Colchão Ortopédico Queen;Colchão com suporte ergonômico e espuma de alta densidade.;3
+TV Smart 55 4K;Smart TV com resolução Ultra HD e Wi-Fi integrado.;1
+Caixa de Som Bluetooth;Som portátil com bateria de longa duração.;1
+Tablet MediaTab 10;Tablet com tela de 10 polegadas e 64GB de memória.;1
+Jogo de Panelas Inox;Conjunto com 5 peças de aço inox.;4
+Carrinho de Bebê;Carrinho dobrável com ajuste de posição.;11
+Câmera Fotográfica XZ10;Câmera compacta com zoom óptico de 20x.;1
+Jogo de Ferramentas 50 peças;Kit completo com chaves alicates e brocas.;12
+Liquidificador Turbo Mix;Liquidificador de alta potência com 5 velocidades.;4
+Ventilador de Mesa 40cm;Ventilador com 3 velocidades e inclinação ajustável.;3
+Relógio de Pulso Clássico;Relógio analógico com pulseira de couro.;13
+Impressora Multifuncional Jet;Impressora com scanner e conectividade Wi-Fi.;2
+Batedeira Planetária Pro;Batedeira com 8 velocidades e tigela de inox.;4
+Armário de Cozinha 3 portas;Armário com design compacto e prateleiras internas.;14
+Mouse Gamer RGB;Mouse com iluminação RGB e alta precisão.;2
+Torradeira Elétrica;Torradeira com ajuste de temperatura e descongelamento.;4
+Colcha de Casal Floral;Colcha estampada com tecido 100% algodão.;15
+Toalha de Banho Luxo;Toalha grande com toque macio e alta absorção.;15
+Churrasqueira Elétrica;Churrasqueira portátil com controle de temperatura.;4
+Mesa para Escritório;Mesa com design moderno e espaço para organizar cabos.;14
+Roteador Wi-Fi AC1200;Roteador com alta velocidade e amplo alcance.;2
+Jogo de Cama Queen 4 peças;Conjunto de lençol com elástico e fronhas.;15
+Smart Lamp RGB;Lâmpada inteligente com controle por aplicativo.;1
+Balança Digital;Balança para controle de peso com visor iluminado.;16
+Cadeira Gamer Pro;Cadeira ergonômica com ajuste de altura e inclinação.;14
+Espremedor de Frutas;Espremedor elétrico com bico anti-gotejamento.;4
+Tábua de Passar Roupas;Tábua dobrável com ajuste de altura.;3
+Patinete Elétrico Speedy;Patinete dobrável com bateria recarregável.;10
+Drone Vision 4K;Drone com câmera de alta resolução e controle remoto.;1
+Purificador de Água Slim;Purificador compacto com filtro de carvão ativado.;4
+Teclado Mecânico RGB;Teclado com switches mecânicos e iluminação colorida.;2
+Espelho de Parede Redondo;Espelho com moldura de madeira.;15
+Lustre de Cristal;Luminária suspensa com acabamento elegante.;15
+Tapete Sala Grande;Tapete macio e antiderrapante.;15
+Carregador Portátil 10.000mAh;Power bank com duas portas USB.;1
+Cadeira de Praia;Cadeira dobrável leve e resistente.;10
+Fogão 4 bocas;Fogão a gás com acendimento automático.;4
+Blusa de Frio Moletom;Blusa com capuz e bolso canguru.;7
+Cômoda com 5 Gavetas;Cômoda espaçosa com acabamento moderno.;14
+Pipoqueira Elétrica;Pipoqueira sem óleo com preparo rápido.;4
+Jogo de Toalhas 5 peças;Conjunto de toalhas para banho e rosto.;15
+Lixeira de Cozinha 20L;Lixeira com pedal e tampa removível.;3
+Smartwatch Fitness Tracker;Monitore sua saúde com estilo.;1
+Conjunto de Panelas Antiaderentes;Dê um toque especial às suas receitas.;4
+Luminária de Mesa LED;Ilumine seu espaço com eficiência.;17
+Churrasqueira Portátil a Carvão;Perfeita para churrascos ao ar livre.;18
+Secador de Cabelo Profissional;Potência e eficiência para o dia a dia.;19
+Cadeira Gamer Ajustável;Conforto para longas horas de jogo.;20
+Tábua de Corte de Bambu;Durável e ecológica.;4
+Smartphone com Câmera Tripla;Desempenho incrível em suas mãos.;1
+Livro de Receitas Veganas;Descubra novas opções deliciosas.;9
+Fone de Ouvido Bluetooth;Sons claros e imersivos.;1
+Mochila Antifurto para Notebook;Segurança e praticidade para viagens.;21
+Conjunto de Toalhas de Algodão;Suavidade e absorção garantidas.;18
+Tapete Antiderrapante para Sala;Estilo e segurança para qualquer ambiente.;18
+Garrafa de Água com Filtro;Ideal para uma hidratação saudável.;10
+Conjunto de Colheres de Medida;Essencial para precisão culinária.;4
+Tablet de Desenho Digital;Crie suas melhores ideias.;1
+Relógio de Pulso Clássico;Elegância para o dia a dia.;13
+Espelho com Luz LED;Perfeito para maquiagem detalhada.;19
+Câmera de Segurança Wi-Fi;Proteja sua casa com tecnologia avançada.;22
+Carregador Sem Fio Rápido;Praticidade na hora de carregar.;1
+Cortador de Legumes Multifuncional;Facilidade na preparação de refeições.;4
+Colchão Inflável com Bomba Elétrica;Ideal para hóspedes inesperados.;18
+Roteador Wi-Fi de Alta Velocidade;Conexão estável para toda a casa.;1
+Casaco de Moletom Unissex;Conforto para qualquer estação.;13
+Kit de Jardinagem com Ferramentas;Para cuidar do seu jardim com estilo.;18
+Smart TV 4K UHD;Experiência de cinema em sua sala.;1
+Luva de Cozinha Resistente ao Calor;Proteção para mãos na hora de cozinhar.;4
+Conjunto de Pesos para Academia;Torne seu treino mais eficiente.;10
+Cafeteira Elétrica Programável;Acorde com café fresco todos os dias.;4
+Mouse Ergonômico Sem Fio;Conforto e precisão no trabalho.;1
+Bicicleta Dobrável para Adultos;Praticidade e transporte sustentável.;10
+Conjunto de Frigideiras Antiaderentes;Cozinhe sem grudar.;4
+Barraca de Camping Impermeável;Ideal para aventuras ao ar livre.;10
+Conjunto de Talheres Inox;Design sofisticado para sua mesa.;4
+Cubo de Atividades para Crianças;Entretenha e eduque os pequenos.;23
+Carrinho de Bebê Dobrável;Praticidade para pais modernos.;24
+Canivete Multiuso com 12 Funções;Companheiro para todas as situações.;10
+Almofada Ortopédica para Cadeira;Conforto para longos períodos sentado.;18
+Pincéis de Maquiagem Profissionais;Aplicação perfeita para qualquer look.;19
+Organizador de Mesa Giratório;Mantenha tudo ao seu alcance.;20
+Sanduicheira 2 em 1;Prepare lanches deliciosos em minutos.;4
+Smartwatch com Oxímetro;Monitore sua saúde em tempo real.;1
+Camiseta com Proteção UV;Perfeita para atividades ao ar livre.;10
+Conjunto de Rodízios para Móveis;Fácil movimentação de móveis pesados.;18
+Adaptador Universal de Tomadas;Compatível com diversos países.;8
+Ferro de Passar Roupa a Vapor;Roupas impecáveis com facilidade.;18
+Grelha para Forno Inox;Perfeita para assados crocantes.;4
+Jaqueta Impermeável com Capuz;Ideal para dias de chuva.;10
+Câmera Instantânea com Filme;Registre memórias de forma divertida.;1
+Kit de Velas Aromáticas Decorativas;Aromatize e decore ao mesmo tempo.;18
