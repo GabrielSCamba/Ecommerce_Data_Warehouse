@@ -10,7 +10,9 @@ def gerar_dados_produtos():
     Returns:
         pd.DataFrame: DataFrame contendo os dados gerados.
     """
-    arq_produtos = pd.read_csv(r"input/lista_produtos.csv", sep = ",")
-    df_produtos= arq_produtos[["nome_produto", "descricao", "id_categoria"]]
-    df_produtos.to_csv(r"produtos.csv", index=False, sep=';')
+    arq_produtos = pd.read_csv(r"files/input/lista_produtos.csv", sep = ",")
+    df_produtos= arq_produtos[["nome_produto", "descricao_produto", "id_categoria"]]
+    df_produtos.to_csv(r"files/output/produtos.csv", index=False, sep=';')
 
+
+gerar_dados_produtos()
