@@ -69,7 +69,7 @@ def gerar_dados_clientes(data_inicio: str,
    
     # Criando o DataFrame a partir da lista de clientes
     df_clientes = pd.DataFrame(clientes)
-    df_clientes.to_csv(r"output/clientes.csv", index=False, sep=';')
+    df_clientes.to_csv(r"files/output/clientes.csv", index=False, sep=';')
     
     return df_clientes
 
