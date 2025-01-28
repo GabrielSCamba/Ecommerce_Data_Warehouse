@@ -1,5 +1,5 @@
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import random
 
@@ -16,7 +16,7 @@ def gera_dados_preco_produtos(data_inicio, data_fim):
 
     """
 
-    arq_produtos = pd.read_csv(r"input/lista_produtos.csv", sep=",")
+    arq_produtos = pd.read_csv(r"files/input/lista_produtos.csv", sep=",")
     print(arq_produtos.head())  # Exibe as primeiras linhas
     print(arq_produtos.columns)  # Exibe os nomes das colunas
     
@@ -24,7 +24,7 @@ def gera_dados_preco_produtos(data_inicio, data_fim):
     data_inicio = datetime.strptime(data_inicio, "%Y-%m-%d")
     data_fim = datetime.strptime(data_fim, "%Y-%m-%d")    
 
-    arq_produtos = pd.read_csv(r"input/lista_produtos.csv", sep = ",")
+    arq_produtos = pd.read_csv(r"files/input/lista_produtos.csv", sep = ",")
     df_preco_produtos = arq_produtos[["id_produto", "preco"]]
 
     # Datas de início e fim
@@ -52,7 +52,7 @@ def gera_dados_preco_produtos(data_inicio, data_fim):
 
     # Criando um DataFrame com os resultados
     df_precos = pd.DataFrame(lista_precos)
-    df_precos.to_csv(r"output/precos_produtos.csv", sep= ";")
+    df_precos.to_csv(r"files/output/precos_produtos.csv",index=False, sep= ";")
     print(df_precos)
 
     return df_precos
