@@ -22,7 +22,7 @@ def gera_dados_clientes_enderecos(num_clientes: int, num_enderecos: int):
             
 
     df_cliente_endereco = pd.DataFrame(dados_cliente_endereco)
-    df_cliente_endereco.to_csv(r"output\cliente_endereco.csv", index=False, sep=';')
+    df_cliente_endereco.to_csv(r"files/output/cliente_endereco.csv", index=False, sep=';')
 
 
 gera_dados_clientes_enderecos(num_clientes=5, num_enderecos= 8)

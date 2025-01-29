@@ -15,12 +15,6 @@ def gera_dados_preco_produtos(data_inicio, data_fim):
         pd.DataFrame: DataFrame contendo os dados gerados.
 
     """
-
-    arq_produtos = pd.read_csv(r"files/input/lista_produtos.csv", sep=",")
-    print(arq_produtos.head())  # Exibe as primeiras linhas
-    print(arq_produtos.columns)  # Exibe os nomes das colunas
-    
-
     data_inicio = datetime.strptime(data_inicio, "%Y-%m-%d")
     data_fim = datetime.strptime(data_fim, "%Y-%m-%d")    
 
