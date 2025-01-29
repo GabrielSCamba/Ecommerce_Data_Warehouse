@@ -2,6 +2,7 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 import time
 import psycopg2
+import random
 
 from gerar_dados_clientes import cadastrar_cliente
 
@@ -22,14 +23,12 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 while data_atual <= data_fim :
-    
-    cadastrar_cliente(data_atual=data_atual, cur=cur, conn=conn)
-    '''
-    time.sleep(5)
-    gerar_dados_enderecos(data_atual)
+    num_clientes_gerados = random.randint(0,5)
 
-   
-    '''
+    for _ in range(num_clientes_gerados) :
+        if num_clientes_gerados > 0 :
+            cadastrar_cliente(data_atual=data_atual, cur=cur, conn=conn)
+    
     data_atual += relativedelta(days=1)
 
 # Fechar conexão após todas as inserções
