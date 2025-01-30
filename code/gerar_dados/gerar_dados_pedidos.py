@@ -1,40 +1,43 @@
 import random
-import pandas as pd
 
+def gerar_pedido(data_atual, cur, conn):
 
+    # Sorteia um cliente para fazer a compra
+    cur.execute("SELECT id_cliente FROM oltp.clientes",)  
+    lista_id_clientes = [id_cliente[0] for id_cliente in cur.fetchall()]
+    id_cliente = random.sample(lista_id_clientes, 1)
 
-def gerar_dados_pedidos():
-    num_pedidos_gerados = random.randint(0,10)
-    pedidos = []
-    itens_pedido =[]
+    # Sorteia um endereço do cliente 
+    cur.execute("SELECT id_endereco FROM oltp.clientes_enderecos WHERE id_cliente = %s;", (id_cliente,))  
+    lista_id_enderecos = [id_enderecos[0] for id_enderecos in cur.fetchall()]
+    id_endereco = random.sample(lista_id_enderecos, 1)
+    
+    # Sorteia de 1 a 5 itens para incluir no pedido
+    cur.execute("SELECT id_produto FROM oltp.produtos",)  
+    lista_id_produtos = [id_produto[0] for id_produto in cur.fetchall()]
+    num_itens = random.randint(1, 5)
+    id_produto = random.sample(lista_id_produtos, num_itens)
 
-    produtos = pd.read_csv(r"files/output/produtos.csv")
-    produtos = produtos.iloc[:, 0].tolist()
+    # Sorteia um método de pagamento. Se for cartão sorteia um número de parcelas de 1 a 10
+    metodo_pagamento = random.choice(["PIX", "CARTÃO DE CRÉDITO", "CARTÃO DE DÉBITO"])
+    if metodo_pagamento == "CARTÃO DE CRÉDITO" :
+        num_parcelas = random.randint(1, 10)
+    else :
+        num_parcelas = 1 
 
-    clientes = pd.read_csv(r"files/output/clientes.csv")
-    clientes = clientes.iloc[:, 0].tolist()
+    # Registra o pedido
+    cur.execute(
+        "INSERT INTO oltp.pedidos (id_produto, id_cliente, id_endereco_entrega, metodo_pagamento, num_parcelas, data_pedido) VALUES (%s, %s,%s, %s, %s, %s)RETURNING id_pedido;",
+        (id_cliente, id_endereco, metodo_pagamento, num_parcelas, data_atual)
+    )
+    conn.commit()
+    id_pedido = cur.fetchone()[0]
 
-    enderecos = pd.read_csv(r"files/output/enderecos.csv")
-    enderecos = produtos.iloc[:, 0].tolist()
+    # Sorteia uma quantidade de itens de 1 a 3 
+    quantidade = random.randint(1, 3)
 
-
-    for i in range(1, num_pedidos_gerados+1):
-        if num_pedidos_gerados > 0 :
-            num_itens_pedidos = random.randint(0,5)
-            lista_itens_pedido = random.sample(produtos, num_itens_pedidos)
-            
-            pedidos.append({
-                "ID_CLIENTE" :
-                "ID_PRODUTO" :
-                "METODO_PAGAMENTO" :
-                "NUM_PARCELAS" :
-                "DATA_PEDIDO" :
-            })
-
-
-            for j in (lista_itens_pedido):
-                itens_pedido.append({
-                    "ID_PEDIDO": i, # Alterar para buscar no banco
-                    "ID_PRODUTO": j,
-                    "QUANTIDADE": random.randint(1,3)
-                })
+    # Registra os itens do pedido
+    cur.execute(
+        "INSERT INTO oltp.itens_pedido (id_pedido, id_produto, quantidade) VALUES (%s, %s,%s);",
+        (id_pedido, id_produto, quantidade)
+    )

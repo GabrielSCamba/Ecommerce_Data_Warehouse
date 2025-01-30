@@ -1,0 +1,13 @@
+ID_CLIENTE;CPF;PRIMEIRO_NOME;SOBRENOME;GENERO;DATA_NASCIMENTO;EMAIL;TELEFONE;CRIADO_EM;MODIFICADO_EM
+0;687.951.042-67;Alexandre;Cunha;M;1948-11-12;alexandre.cunha@email.com;+55 25 98718 5611;2020-01-01;2020-01-01
+1;096.813.452-15;Fernando;Dias;M;1950-12-01;fernando.dias@email.com;+55 (059) 97384 0695;2020-01-01;2020-01-01
+2;175.382.064-26;Ana Carolina;Fonseca;F;2017-11-10;ana_carolina.fonseca@email.com;+55 68 98435-0143;2020-01-01;2020-01-01
+0;526.498.103-51;Ayla;Novais;F;1940-03-29;ayla.novais@email.com;+55 (96) 9 4827 1868;2020-01-02;2020-01-02
+1;027.948.351-14;Emanuelly;Albuquerque;F;1973-02-07;emanuelly.albuquerque@email.com;+55 38 90782 2962;2020-01-02;2020-01-02
+2;297.458.306-74;Liz;Porto;F;2018-05-23;liz.porto@email.com;+55 94 95996 4812;2020-01-02;2020-01-02
+3;027.936.851-86;Luigi;Gomes;M;1925-01-19;luigi.gomes@email.com;+55 35 98445-9919;2020-01-02;2020-01-02
+0;396.074.852-38;Vitor;Azevedo;M;1956-03-05;vitor.azevedo@email.com;+55 47 9 3578-6073;2020-01-05;2020-01-05
+1;137.928.456-28;Heloisa;Cirino;F;1978-02-18;heloisa.cirino@email.com;+55 (58) 9 2292 4952;2020-01-05;2020-01-05
+2;246.037.518-26;Luiz Gustavo;Freitas;M;1997-05-04;luiz_gustavo.freitas@email.com;+55 (25) 9 7657 5495;2020-01-05;2020-01-05
+3;821.657.349-91;Anna Liz;Freitas;F;1952-06-11;anna_liz.freitas@email.com;+55 34 9 9092 0347;2020-01-05;2020-01-05
+4;185.347.029-50;Miguel;Vasconcelos;M;1980-07-24;miguel.vasconcelos@email.com;+55 77 9 3861-9001;2020-01-05;2020-01-05

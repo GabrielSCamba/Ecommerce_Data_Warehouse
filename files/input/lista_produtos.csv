@@ -1,4 +1,4 @@
-﻿id_produto,nome_produto,preco,id_categoria,categoria,descricao_produto,descricao_categoria
+﻿id_produto,nome_produto,preco,id_categoria,nome_categoria,descricao_produto,descricao_categoria
 1,Smartphone X200,2200,1,Eletrônicos,Smartphone com 128GB de armazenamento e câmera dupla.,Dispositivos tecnológicos para entretenimento comunicação e tarefas diárias como smartphones e TVs.
 2,Fone de Ouvido Bluetooth Z,350,1,Eletrônicos,Fone de ouvido sem fio com cancelamento de ruído.,Dispositivos tecnológicos para entretenimento comunicação e tarefas diárias como smartphones e TVs.
 3,Notebook Pro 15,4800,2,Informática,Notebook com processador i7 e 16GB de RAM.,Produtos e acessórios relacionados a computadores como notebooks mouses e teclados.

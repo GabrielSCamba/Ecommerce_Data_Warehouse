@@ -1,6 +1,6 @@
 import pandas as pd
 
-def gerar_dados_produtos():
+def cadastrar_produtos(cur, conn):
     
     """
     Gera um DataFrame com dados de produtos através de um arquivo csv.
@@ -10,9 +10,23 @@ def gerar_dados_produtos():
     Returns:
         pd.DataFrame: DataFrame contendo os dados gerados.
     """
+    
     arq_produtos = pd.read_csv(r"files/input/lista_produtos.csv", sep = ",")
-    df_produtos= arq_produtos[["nome_produto", "descricao_produto", "id_categoria"]]
-    df_produtos.to_csv(r"files/output/produtos.csv", index=False, sep=';')
 
+    # Gerar categoria dos produtos
+    df_categorias = arq_produtos[["nome_categoria", "descricao_categoria"]]
 
-gerar_dados_produtos()
+    cur.executemany(
+    "INSERT INTO oltp.categorias_produtos (nome_categoria, descricao_categoria) VALUES (%s, %s);",
+    df_categorias.values.tolist()
+    )
+    conn.commit()
+    
+    # Gerar produtos
+    df_produtos = arq_produtos[["id_categoria", "nome_produto", "descricao_produto"]]
+
+    cur.executemany(
+    "INSERT INTO oltp.produtos (id_categoria, nome_produto, descricao_produto) VALUES (%s, %s, %s);",
+    df_produtos.values.tolist()
+    )
+    conn.commit()

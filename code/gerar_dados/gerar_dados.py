@@ -5,6 +5,9 @@ import psycopg2
 import random
 
 from gerar_dados_clientes import cadastrar_cliente
+from gerar_dados_produtos import gerar_dados_produtos
+
+
 
 data_nasc_inicio = date(1944,1,1)
 data_nasc_fim = date(2007,12,31)
@@ -22,6 +25,11 @@ conn = psycopg2.connect(
 )
 cur = conn.cursor()
 
+gerar_dados_produtos(cur, conn)
+
+
+
+'''
 while data_atual <= data_fim :
     num_clientes_gerados = random.randint(0,5)
 
@@ -34,3 +42,4 @@ while data_atual <= data_fim :
 # Fechar conexão após todas as inserções
 cur.close()
 conn.close()
+'''
