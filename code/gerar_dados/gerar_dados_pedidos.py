@@ -46,8 +46,7 @@ def gerar_pedido(data_atual, cur, conn):
         conn.commit()
 
         # Sorteia uma chance de 25% do cliente avaliar o produto
-        chance_avaliar_produto = random.randint(1,100)
-        if chance_avaliar_produto > 75 :
+        if random.random() < 0.25:
             # Sorteia uma nota e um comentário
             nota = random.randint(1,5)
             fake = Faker()
