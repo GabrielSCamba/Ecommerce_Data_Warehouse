@@ -1,21 +1,18 @@
 from datetime import date
 from dateutil.relativedelta import relativedelta
-import time
 import psycopg2
 import random
 
-from gerar_dados_clientes import cadastrar_cliente
-from gerar_dados_produtos import gerar_dados_produtos
+from gerar_dados_clientes import vincular_cliente_endereco, gerar_cliente, gerar_endereco
+from gerar_dados_produtos import cadastrar_produtos
+from gerar_dados_pedidos import gerar_pedido
+from gerar_dados_precos_produtos import gera_dados_preco_produtos
+from gerar_dados_alteracao_cadastro import alteracao_cadastro_telefone, cadastro_novo_endereco
 
-
-
-data_nasc_inicio = date(1944,1,1)
-data_nasc_fim = date(2007,12,31)
 data_inicio = date(2020,1,1)
-data_fim = date(2020,1,5)
+data_fim = date(2020,12,31)
 data_atual = data_inicio
 
-# Criar conexão única
 conn = psycopg2.connect(
     dbname="postgres",
     user="postgres",
@@ -25,21 +22,37 @@ conn = psycopg2.connect(
 )
 cur = conn.cursor()
 
-gerar_dados_produtos(cur, conn)
+cadastrar_produtos(conn, cur)
 
-
-
-'''
-while data_atual <= data_fim :
+while data_atual <= data_fim : 
+    
+    if data_atual.day == 1:
+        gera_dados_preco_produtos(conn, cur, data_atual)
+    
     num_clientes_gerados = random.randint(0,5)
+    if num_clientes_gerados > 0 :
+        for _ in range(num_clientes_gerados) :
+            id_cliente = gerar_cliente(data_atual, conn, cur)
+            id_endereco = gerar_endereco(data_atual, conn, cur)
+            vincular_cliente_endereco(id_cliente, 
+                                    id_endereco, 
+                                    data_atual,
+                                    conn, 
+                                    cur)
+    
+    num_pedidos = random.randint(0, 10)
+    if num_pedidos > 0 :
+        for _ in range(num_pedidos) :
+            gerar_pedido(data_atual, conn, cur)
 
-    for _ in range(num_clientes_gerados) :
-        if num_clientes_gerados > 0 :
-            cadastrar_cliente(data_atual=data_atual, cur=cur, conn=conn)
+    if random.random() < 0.01 :
+        if random.choice(["telefone", "endereco"]) == "telefone" :
+            alteracao_cadastro_telefone(data_atual, conn, cur)
+        else :
+            cadastro_novo_endereco(data_atual, conn, cur)   
     
     data_atual += relativedelta(days=1)
 
 # Fechar conexão após todas as inserções
 cur.close()
 conn.close()
-'''

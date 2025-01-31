@@ -1,6 +1,6 @@
 import pandas as pd
 
-def cadastrar_produtos(cur, conn):
+def cadastrar_produtos(conn, cur):
     
     """
     Gera um DataFrame com dados de produtos através de um arquivo csv.

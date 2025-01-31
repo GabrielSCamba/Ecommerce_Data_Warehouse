@@ -1,10 +1,9 @@
 import pandas as pd
-from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import random
 
 
-def gera_dados_preco_produtos(cur, conn, data_atual):
+def gera_dados_preco_produtos(conn, cur, data_atual):
     
     """
     Gera um DataFrame com dados de preco de produtos através de um arquivo csv.

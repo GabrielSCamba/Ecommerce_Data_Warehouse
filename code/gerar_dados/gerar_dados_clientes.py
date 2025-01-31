@@ -2,13 +2,10 @@ from faker import Faker
 import random
 from datetime import date
 from unidecode import unidecode
-import pandas as pd
-import os
-import psycopg2
 
-def cadastrar_cliente(data_atual: date,
-                      cur, 
-                      conn):
+def gerar_cliente(data_atual: date,
+                conn, 
+                cur):
     """
     Gera um DataFrame com dados fictícios de clientes.
     
@@ -43,6 +40,15 @@ def cadastrar_cliente(data_atual: date,
     id_cliente = cur.fetchone()[0]
     conn.commit()
 
+    return id_cliente
+
+
+def gerar_endereco(data_atual: date,
+                    conn, 
+                    cur):
+    
+    fake = Faker('pt_BR')
+
     rua = fake.street_name()
     num_rua = fake.building_number()
     bairro = fake.bairro()
@@ -56,10 +62,16 @@ def cadastrar_cliente(data_atual: date,
     )
     conn.commit()
     id_endereco = cur.fetchone()[0]
+    
+    return id_endereco
 
+def vincular_cliente_endereco(id_cliente,
+                            id_endereco,
+                            data_atual: date,
+                            conn, 
+                            cur):
     cur.execute(
         "INSERT INTO oltp.clientes_enderecos (id_cliente, id_endereco, criado_em, modificado_em) VALUES (%s, %s, %s, %s);",
         (id_cliente, id_endereco, data_atual, data_atual)
     )
     conn.commit()
-
