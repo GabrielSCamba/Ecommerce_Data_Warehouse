@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: postgres
+    schema: oltp
+    tables:
+      - name: clientes
+        description: "Tabela com informações pessoais dos clientes"
+        columns:
+          - name: "id_cliente"
+            description: "Id do cliente gerado automaticamente pelo banco"
+          - name: "cpf"
+            description: "TBD"
+          - name: "primeiro_nome"
+            description: "TBD"
+          - name: "sobrenome"
+            description: "TBD"
+          - name: "genero"
+            description: "TBD"
+          - name: "data_nascimento"
+            description: "TBD"
+          - name: "email"
+            description: "TBD"
+          - name: "num_telefone"
+            description: "TBD"
+          - name: "criado_em"
+            description: "TBD"
+          - name: "modificado_em"
+            description: "TBD"
