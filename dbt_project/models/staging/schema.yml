@@ -4,6 +4,28 @@ sources:
   - name: postgres
     schema: oltp
     tables:
+      - name: avaliacao_produto
+        description: "TBD"
+        columns:
+          - name: "id_avaliacao"
+            description: "TBD"
+          - name: "id_produto"
+            description: "TBD"
+          - name: "nota"
+            description: "TBD"
+          - name: "comentario"
+            description: "TBD"
+
+      - name: categorias_produtos
+        description: "TBD"
+        columns:
+          - name: "id_categoria"
+            description: "TBD"
+          - name: "nome_categoria"
+            description: "TBD"
+          - name: "descricao_categoria"
+            description: "TBD"
+
       - name: clientes
         description: "Tabela com informações pessoais dos clientes"
         columns:
@@ -26,4 +48,80 @@ sources:
           - name: "criado_em"
             description: "TBD"
           - name: "modificado_em"
+            description: "TBD"
+
+      - name: enderecos
+        description: "TBD"
+        columns:
+          - name: "id_endereco"
+            description: "TBD"
+          - name: "id_cliente"
+            description: "TBD"
+          - name: "rua"
+            description: "TBD"
+          - name: "numero"
+            description: "TBD"
+          - name: "bairro"
+            description: "TBD"
+          - name: "cidade"
+            description: "TBD"
+          - name: "estadp"
+            description: "TBD"
+          - name: "cep"
+            description: "TBD"
+          - name: "criado_em"
+            description: "TBD"
+          - name: "modificado_em"
+            description: "TBD"
+
+      - name: itens_pedido
+        description: "TBD"
+        columns:
+          - name: "id_item"
+            description: "TBD"
+          - name: "id_pedido"
+            description: "TBD"
+          - name: "id_produto"
+            description: "TBD"
+          - name: "quantidade"
+
+      - name: pedidos
+        description: "TBD"
+        columns:
+          - name: "id_pedido"
+            description: "TBD"
+          - name: "id_id_cliente"
+            description: "TBD"
+          - name: "id_enredeco"
+            description: "TBD"
+          - name: "metodo_pagamento"
+            description: "TBD"
+          - name: "num_parcelas"
+            description: "TBD"
+          - name: "data_pedido"
+            description: "TBD"
+
+      - name: precos_produtos
+        description: "TBD"
+        columns:
+          - name: "id_preco"
+            description: "TBD"
+          - name: "id_produto"
+            description: "TBD"
+          - name: "data_inicio"
+            description: "TBD"
+          - name: "data_fim"
+            description: "TBD"
+          - name: "preco"
+
+      - name: produtos
+        description: "TBD"
+        columns:
+          - name: "id_produto"
+            description: "TBD"
+          - name: "id_categoria"
+            description: "TBD"
+          - name: "nome_produto"
+            description: "TBD"
+          - name: "descricao_produto"
             description: "TBD"
