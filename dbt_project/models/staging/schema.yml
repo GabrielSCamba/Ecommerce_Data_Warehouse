@@ -4,124 +4,113 @@ sources:
   - name: postgres
     schema: oltp
     tables:
-      - name: avaliacao_produto
+      - name: category_products
         description: "TBD"
         columns:
-          - name: "id_avaliacao"
+          - name: "categoryid"
             description: "TBD"
-          - name: "id_produto"
+          - name: "categoryname"
             description: "TBD"
-          - name: "nota"
-            description: "TBD"
-          - name: "comentario"
+          - name: "description"
             description: "TBD"
 
-      - name: categorias_produtos
+      - name: product_review
         description: "TBD"
         columns:
-          - name: "id_categoria"
+          - name: "reviewid"
             description: "TBD"
-          - name: "nome_categoria"
+          - name: "itemid"
             description: "TBD"
-          - name: "descricao_categoria"
+          - name: "score"
             description: "TBD"
-
-      - name: clientes
-        description: "Tabela com informações pessoais dos clientes"
+          - name: "reviewcomment"
+            description: "TBD"
+      
+      - name: customers
+        description: "TBD"
         columns:
-          - name: "id_cliente"
-            description: "Id do cliente gerado automaticamente pelo banco"
+          - name: "customerid"
+            description: "TBD"
           - name: "cpf"
             description: "TBD"
-          - name: "primeiro_nome"
+          - name: "firstname"
             description: "TBD"
-          - name: "sobrenome"
+          - name: "lastname"
             description: "TBD"
-          - name: "genero"
+          - name: "gender"
             description: "TBD"
-          - name: "data_nascimento"
+          - name: "birth"
             description: "TBD"
-          - name: "email"
+          - name: "emailaddress"
             description: "TBD"
-          - name: "num_telefone"
+          - name: "phone"
             description: "TBD"
-          - name: "criado_em"
+          - name: "created"
             description: "TBD"
-          - name: "modificado_em"
-            description: "TBD"
-
-      - name: enderecos
+      - name: addresses
         description: "TBD"
         columns:
-          - name: "id_endereco"
+          - name: "addressid"
             description: "TBD"
-          - name: "id_cliente"
+          - name: "customerid"
             description: "TBD"
-          - name: "rua"
+          - name: "street"
             description: "TBD"
-          - name: "numero"
+          - name: "streetnumber"
             description: "TBD"
-          - name: "bairro"
+          - name: "neighborhood"
             description: "TBD"
-          - name: "cidade"
+          - name: "city"
             description: "TBD"
-          - name: "estadp"
+          - name: "state"
             description: "TBD"
-          - name: "cep"
+          - name: "code"
             description: "TBD"
-          - name: "criado_em"
-            description: "TBD"
-          - name: "modificado_em"
-            description: "TBD"
-
-      - name: itens_pedido
+      - name: order_items
         description: "TBD"
         columns:
-          - name: "id_item"
+          - name: "itemid"
             description: "TBD"
-          - name: "id_pedido"
+          - name: "orderid"
             description: "TBD"
-          - name: "id_produto"
+          - name: "productid"
             description: "TBD"
-          - name: "quantidade"
-
-      - name: pedidos
+          - name: "quantity"
+      - name: orders
         description: "TBD"
         columns:
-          - name: "id_pedido"
+          - name: "orderid"
             description: "TBD"
-          - name: "id_id_cliente"
+          - name: "customerid"
             description: "TBD"
-          - name: "id_enredeco"
+          - name: "addressid"
             description: "TBD"
-          - name: "metodo_pagamento"
+          - name: "payment"
             description: "TBD"
-          - name: "num_parcelas"
+          - name: "installments"
             description: "TBD"
-          - name: "data_pedido"
+          - name: "date"
             description: "TBD"
-
-      - name: precos_produtos
+      - name: product_price
         description: "TBD"
         columns:
-          - name: "id_preco"
+          - name: "priceid"
             description: "TBD"
-          - name: "id_produto"
+          - name: "productid"
             description: "TBD"
-          - name: "data_inicio"
+          - name: "startdate"
             description: "TBD"
-          - name: "data_fim"
+          - name: "enddate"
             description: "TBD"
-          - name: "preco"
-
-      - name: produtos
+          - name: "price"
+      - name: products
         description: "TBD"
         columns:
-          - name: "id_produto"
+          - name: "productid"
             description: "TBD"
-          - name: "id_categoria"
+          - name: "categoryid"
             description: "TBD"
-          - name: "nome_produto"
+          - name: "productname"
             description: "TBD"
-          - name: "descricao_produto"
+          - name: "description"
             description: "TBD"
