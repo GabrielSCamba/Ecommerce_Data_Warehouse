@@ -1,0 +1,106 @@
+﻿product_id,product_name,price,category_id,category_name,product_description,category_description
+1,Smartphone X200,2200,1,Electronics,Smartphone with 128GB storage and dual camera,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+2,Bluetooth Headphone Z,350,1,Electronics,Wireless headphones with noise cancellation,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+3,Notebook Pro 15,4800,2,Computing,Notebook with i7 processor and 16GB RAM,Products and accessories related to computers such as notebooks mice and keyboards  
+4,Smartwatch S10,1200,1,Electronics,Smartwatch with health monitoring,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+5,Automatic Coffee Maker,400,3,Home Utilities,Electric coffee maker with programmable timer,Practical items to facilitate daily household tasks such as organizers and cleaning tools  
+6,Air Fryer 3.2L,650,4,Kitchen,Oil-free fryer with 3.2-liter capacity,Utensils and equipment for food preparation and storage such as pots and blenders  
+7,Frost Free Refrigerator,3100,5,Appliances,Refrigerator with independent freezer and energy efficiency,Essential appliances for daily household routine such as refrigerators microwaves and washing machines  
+8,Running Max Sneakers,250,6,Footwear,Sports shoes with cushioning for running,Shoes sneakers and other types of footwear for different occasions and styles  
+9,Basic White T-Shirt,50,7,Clothing,Cotton t-shirt with regular fit,Clothes for all seasons styles and occasions  
+10,Executive Backpack,200,8,Travel,Water-resistant backpack with laptop compartment,Products to facilitate travel such as suitcases backpacks and accessories  
+11,Python for Everyone Book,70,9,Books,Complete guide for beginners in Python programming,Various titles for reading and learning in different genres and fields  
+12,GameStation 5 Console,4500,1,Electronics,Next-generation video game console with advanced graphics,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+13,Mountain Bike,1800,10,Sports,21-speed bicycle with dual suspension,Equipment and accessories for practicing physical activities and sports  
+14,Orthopedic Queen Mattress,2200,3,Home Utilities,Mattress with ergonomic support and high-density foam,Practical items to facilitate daily household tasks such as organizers and cleaning tools  
+15,Smart TV 55 4K,3000,1,Electronics,Smart TV with Ultra HD resolution and built-in Wi-Fi,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+16,Bluetooth Speaker,250,1,Electronics,Portable speaker with long battery life,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+17,MediaTab 10 Tablet,1800,1,Electronics,Tablet with 10-inch screen and 64GB memory,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+18,Stainless Steel Cookware Set,500,4,Kitchen,Set with 5 stainless steel pieces,Utensils and equipment for food preparation and storage such as pots and blenders  
+19,Baby Stroller,700,11,Baby,Foldable stroller with adjustable position,Products aimed at children such as clothes toys and school items  
+20,XZ10 Camera,3500,1,Electronics,Compact camera with 20x optical zoom,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+21,50-Piece Tool Set,150,12,Tools,Complete kit with wrenches pliers and drill bits,Equipment for maintenance repairs and construction  
+22,Turbo Mix Blender,150,4,Kitchen,High-power blender with 5 speeds,Utensils and equipment for food preparation and storage such as pots and blenders  
+23,40cm Table Fan,120,3,Home Utilities,Fan with 3 speeds and adjustable tilt,Practical items to facilitate daily household tasks such as organizers and cleaning tools  
+24,Classic Wristwatch,250,13,Fashion,Analog watch with leather strap,Accessories and style items to complement looks and trends  
+25,Jet Multifunction Printer,800,2,Computing,Printer with scanner and Wi-Fi connectivity,Products and accessories related to computers such as notebooks mice and keyboards  
+26,Planetary Mixer Pro,450,4,Kitchen,Mixer with 8 speeds and stainless steel bowl,Utensils and equipment for food preparation and storage such as pots and blenders  
+27,3-Door Kitchen Cabinet,850,14,Furniture,Compact design cabinet with internal shelves,Items to furnish and decorate indoor and outdoor spaces  
+28,RGB Gaming Mouse,180,2,Computing,Mouse with RGB lighting and high precision,Products and accessories related to computers such as notebooks mice and keyboards  
+29,Electric Toaster,130,4,Kitchen,Toaster with temperature adjustment and defrosting,Utensils and equipment for food preparation and storage such as pots and blenders  
+30,Floral Double Bedspread,200,15,Decoration,Printed bedspread with 100% cotton fabric,Objects and accessories to personalize and beautify spaces  
+31,Luxury Bath Towel,100,15,Decoration,Large towel with soft touch and high absorption,Objects and accessories to personalize and beautify spaces  
+32,Electric Grill,300,4,Kitchen,Portable grill with temperature control,Utensils and equipment for food preparation and storage such as pots and blenders  
+33,Office Desk,400,14,Furniture,Modern design desk with cable management space,Items to furnish and decorate indoor and outdoor spaces  
+34,Wi-Fi Router AC1200,180,2,Computing,Router with high speed and wide coverage,Products and accessories related to computers such as notebooks mice and keyboards  
+35,Queen 4-Piece Bedding Set,280,15,Decoration,Fitted sheet set with elastic and pillowcases,Objects and accessories to personalize and beautify spaces  
+36,Smart RGB Lamp,300,1,Electronics,Smart lamp with app control,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+37,Digital Scale,100,16,Personal Care,Weight control scale with illuminated display,Hygiene and wellness products such as creams perfumes and shaving kits  
+38,Pro Gaming Chair,1000,14,Furniture,Ergonomic chair with height and tilt adjustment,Items to furnish and decorate indoor and outdoor spaces  
+39,Fruit Juicer,110,4,Kitchen,Electric juicer with anti-drip spout,Utensils and equipment for food preparation and storage such as pots and blenders  
+40,Ironing Board,100,3,Home Utilities,Foldable ironing board with height adjustment,Practical items to facilitate daily household tasks such as organizers and cleaning tools  
+41,Speedy Electric Scooter,1500,10,Sports,Foldable scooter with rechargeable battery,Equipment and accessories for practicing physical activities and sports  
+42,Vision 4K Drone,3200,1,Electronics,Drone with high-resolution camera and remote control,Technological devices for entertainment communication and daily tasks such as smartphones and TVs  
+43,Slim Water Purifier,300,4,Kitchen,Compact purifier with activated carbon filter,Utensils and equipment for food preparation and storage such as pots and blenders  
+44,RGB Mechanical Keyboard,350,2,Computing,Keyboard with mechanical switches and colorful lighting,Products and accessories related to computers such as notebooks mice and keyboards  
+45,Round Wall Mirror,200,15,Decoration,Mirror with wooden frame,Objects and accessories to personalize and beautify spaces  
+46,Crystal Chandelier,1200,15,Decoration,Hanging light fixture with elegant finish,Objects and accessories to personalize and beautify spaces  
+47,Large Living Room Rug,250,15,Decoration,Soft and non-slip rug,Objects and accessories to personalize and beautify spaces  
+48,Portable Charger 10000mAh,100,1,Electronics,Power bank with two USB ports.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+49,Beach Chair,150,10,Sports,Lightweight and sturdy folding chair.,Equipment and accessories for practicing physical activities and sports.
+50,4-Burner Stove,1200,4,Kitchen,Gas stove with automatic ignition.,Utensils and equipment for food preparation and storage such as pots and blenders.
+51,Hoodie Sweatshirt,150,7,Clothing,Hoodie with kangaroo pocket.,Clothes for all seasons styles and occasions.
+52,5-Drawer Dresser,750,14,Furniture,Spacious dresser with a modern finish.,Items for furnishing and decorating indoor and outdoor spaces.
+53,Electric Popcorn Maker,120,4,Kitchen,Oil-free popcorn maker with quick preparation.,Utensils and equipment for food preparation and storage such as pots and blenders.
+54,5-Piece Towel Set,150,15,Decoration,Set of towels for bath and face.,Objects and accessories for personalizing and beautifying spaces.
+55,20L Kitchen Trash Can,80,3,Home Utilities,Trash can with pedal and removable lid.,Practical items to facilitate daily household tasks such as organizers and cleaning tools.
+56,Fitness Tracker Smartwatch,700,1,Electronics,Monitor your health in style.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+57,Nonstick Cookware Set,400,4,Kitchen,Add a special touch to your recipes.,Utensils and equipment for food preparation and storage such as pots and blenders.
+58,LED Desk Lamp,150,17,Lighting,Light up your space efficiently.,Lamps bulbs and other products for illuminating and decorating spaces.
+59,Portable Charcoal Grill,200,18,Home,Perfect for outdoor barbecues.,Various household items for home use and organization.
+60,Professional Hair Dryer,180,19,Beauty,Power and efficiency for daily use.,Cosmetics makeup and accessories for aesthetic care.
+61,Adjustable Gaming Chair,850,20,Office,Comfort for long gaming sessions.,Furniture and materials for offices and study spaces.
+62,Bamboo Cutting Board,80,4,Kitchen,Durable and eco-friendly.,Utensils and equipment for food preparation and storage such as pots and blenders.
+63,Smartphone with Triple Camera,2800,1,Electronics,Incredible performance in your hands.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+64,Vegan Recipe Book,50,9,Books,Discover new delicious options.,Various titles for reading and learning in different genres and fields.
+65,Bluetooth Headphones,300,1,Electronics,Clear and immersive sound.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+66,Anti-Theft Laptop Backpack,250,21,Accessories,Security and convenience for travel.,Complementary items for style and functionality such as bags wallets and watches.
+67,Cotton Towel Set,120,18,Home,Guaranteed softness and absorption.,Various household items for home use and organization.
+68,Non-Slip Living Room Rug,200,18,Home,Style and safety for any environment.,Various household items for home use and organization.
+69,Water Bottle with Filter,90,10,Sports,Ideal for healthy hydration.,Equipment and accessories for practicing physical activities and sports.
+69,Measuring Spoon Set,80,4,Kitchen,Essential for culinary precision.,Utensils and equipment for food preparation and storage such as pots and blenders.
+71,Digital Drawing Tablet,350,1,Electronics,Create your best ideas.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+72,Classic Wristwatch,250,13,Fashion,Elegance for daily wear.,Accessories and stylish items to complement looks and trends.
+73,LED Makeup Mirror,300,19,Beauty,Perfect for detailed makeup application.,Cosmetics makeup and accessories for aesthetic care.
+74,Wi-Fi Security Camera,300,22,Security,Protect your home with advanced technology.,Products for protection and monitoring such as cameras and alarms.
+75,Fast Wireless Charger,180,1,Electronics,Convenience when charging your devices.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+76,Multifunctional Vegetable Cutter,150,4,Kitchen,Ease in meal preparation.,Utensils and equipment for food preparation and storage such as pots and blenders.
+77,Inflatable Mattress with Electric Pump,400,18,Home,Ideal for unexpected guests.,Various household items for home use and organization.
+78,High-Speed Wi-Fi Router,250,1,Electronics,Stable connection for the whole house.,Technological devices for entertainment communication and daily tasks such as smartphones and TVs.
+79,Unisex Hoodie,130,13,Fashion,Comfort for any season.,Accessories and stylish items to complement looks and trends.
+80,Gardening Kit with Tools,180,18,Home,Take care of your garden in style.,Various household items for home use and organization.
+81,4K UHD Smart TV,2800,1,Electronics,Cinema experience in your living room.,Technological devices for entertainment communication and daily tasks.
+82,Heat-Resistant Kitchen Gloves,80,4,Kitchen,Protection for your hands while cooking.,Utensils and equipment for food preparation and storage.
+83,Set of Dumbbells for Gym,350,10,Sports,Make your workout more efficient.,Equipment and accessories for physical activities and sports.
+84,Programmable Electric Coffee Maker,550,4,Kitchen,Wake up with fresh coffee every day.,Utensils and equipment for food preparation and storage.
+85,Wireless Ergonomic Mouse,120,1,Electronics,Comfort and precision at work.,Technological devices for entertainment communication and daily tasks.
+86,Foldable Bicycle for Adults,1500,10,Sports,Convenience and sustainable transport.,Equipment and accessories for physical activities and sports.
+87,Non-Stick Frying Pan Set,250,4,Kitchen,Cook without sticking.,Utensils and equipment for food preparation and storage.
+88,Waterproof Camping Tent,500,10,Sports,Ideal for outdoor adventures.,Equipment and accessories for physical activities and sports.
+89,Stainless Steel Cutlery Set,120,4,Kitchen,Sophisticated design for your table.,Utensils and equipment for food preparation and storage.
+90,Children's Activity Cube,100,23,Toys,Entertain and educate the little ones.,Items for children's fun and learning.
+91,Foldable Stroller,850,24,Baby,Convenience for modern parents.,Products for baby care and comfort.
+92,12-Function Multi-tool,150,10,Sports,A companion for all situations.,Equipment and accessories for physical activities and sports.
+93,Orthopedic Cushion for Chair,100,18,Home,Comfort for long sitting periods.,Various items for home use and home organization.
+94,Professional Makeup Brushes,120,19,Beauty,Perfect application for any look.,Cosmetics makeup and accessories for aesthetic care.
+95,Rotating Desk Organizer,150,20,Office,Keep everything within reach.,Furniture and materials for offices and study.
+96,2-in-1 Sandwich Maker,130,4,Kitchen,Prepare delicious snacks in minutes.,Utensils and equipment for food preparation and storage.
+97,Smartwatch with Oximeter,750,1,Electronics,Monitor your health in real-time.,Technological devices for entertainment communication and daily tasks.
+98,UV Protection T-shirt,90,10,Sports,Perfect for outdoor activities.,Equipment and accessories for physical activities and sports.
+99,Set of Furniture Casters,50,18,Home,Easy movement of heavy furniture.,Various items for home use and home organization.
+100,Universal Plug Adapter,40,8,Travel,Compatible with various countries.,Products to ease travel like suitcases backpacks and accessories.
+101,Steam Iron,150,18,Home,Impeccable clothes with ease.,Various items for home use and home organization.
+102,Stainless Steel Oven Rack,180,4,Kitchen,Perfect for crispy roasts.,Utensils and equipment for food preparation and storage.
+103,Waterproof Jacket with Hood,350,10,Sports,Ideal for rainy days.,Equipment and accessories for physical activities and sports.
+104,Instant Camera with Film,500,1,Electronics,Capture memories in a fun way.,Technological devices for entertainment communication and daily tasks.
+105,Decorative Aromatherapy Candles Set,70,18,Home,Scent and decorate at the same time.,Various items for home use and home organization.
